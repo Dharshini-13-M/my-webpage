@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#project" style="--i:3">Project</a>
+            <a href="#contact" style="--i:4">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="./images/home1.jpeg">
+                </div>
+            </div>
+        </div>
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Dharshini</h1>
+            <h3 class="Second">And I'm a <span class="text"></span></h3>
+            <p>As a web development fresher, I'm dedicated to building responsive, intuitive websites that engage users. 
+            </p>
+            <div class="home-scl">
+                <a href="#" style="--i:6"><i class='bx bxl-instagram'></i></a>
+                <a href="#" style="--i:7"><i class='bx bxl-github'></i></a>
+                <a href="#" style="--i:8"><i class='bx bxl-linkedin'></i></a>
+                <a href="#" style="--i:9"><i class='bx bx-envelope'></i></a>
+                <a href="#" style="--i:10"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+        <span class="home-imgHover"></span>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Frontend Developer</h4>
+            <p>Hi! I'm a Computer Science student with a strong interest in frontend development and a passion for
+                building clean, responsive, and user-friendly web interfaces. I'm passionate about turning ideas into
+                well-designed, interactive websites that offer a great user experience. I've worked on a range of
+                personal and collaborative projects, many of which you can explore on my GitHub. I'm open to
+                internships, freelance work, and collaborative opportunities where I can keep learning and contribute
+                meaningfully. Beyond coding, I stay engaged with the latest web design trends and enjoy side projects
+                that challenge both my creativity and technical skills.</p>
+        </div>
+        <!-- <div class="about-img">
+            <img src="./images/abt.jpeg">
+        </div> -->
+        <div class="abt-img">
+            <div class="abt-box">
+                <div class="abt-item">
+                    <img src="./images/abt1.jpeg">
+                </div>
+            </div>
+        </div>
+        <div class="abt-btn">
+            <a href="#about" class="btn-box">Explore More</a>
+        </div>
+    </section>
+
+    <section>
+        <div id="project">
+            <div class="main-text">
+                <h2>Latest <span>Project</span></h2>
+                <div class="portfolio-content">
+                    <div class="row">
+                        <img src="./images/tri.jpeg" height="400">
+                        <div class="layer">
+                            <h5>Tribute page</h5>
+                            <p>A responsive tribute page honoring Queen Elizabeth II, built with HTML and CSS. It
+                                features a clean layout, key moments from her life, and elegant design elements, created
+                                to practice semantic HTML and styling while paying respect to her legacy.</p>
+                            <a href="#"><i class='bx bx-link-external' style="color: black;"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <img src="./images/res.jpeg" height="400">
+                        <div class="layer">
+                            <h5>Restaurant Landing page</h5>
+                            <p>A modern, responsive restaurant website built using HTML, CSS, and basic JavaScript. It
+                                includes a homepage with a menu section, contact info, and stylish design elements. This
+                                project helped me practice layout techniques, responsiveness, and user-friendly UI.</p>
+                            <a href="#"><i class='bx bx-link-external' style="color: black;"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <img src="./images/book.jpeg" height="400">
+                        <div class="layer">
+                            <h5>Book Reading Website</h5>
+                            <p>A clean and well-structured book website built with HTML, CSS, and JavaScript. It
+                                features a homepage, book listings, and a simple UI focused on readability and
+                                structure.
+                            </p>
+                            <a href="#"><i class='bx bx-link-external' style="color: rgb(67, 70, 70);"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <h4>Let's Work Together</h4>
+            <p>Thank you for visiting my portfolio! I'd love to hear from you—whether it's about a potential
+                collaboration, freelance project, job opportunity, or just to say hello. </p>
+            <div class="contact-list">
+                <li><i class='bx bxs-send'></i> abc123@gmail.com</li>
+                <li><i class='bx bxs-phone'></i> 0123456789</li>
+            </div>
+            <div class="contact-icons">
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bx-envelope'></i></a>
+                <a href="#"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Your Email" required>
+                <input type="text" placeholder="Enter Your Subject" required>
+                <textarea name="text" id="" cols="40" rows="25" placeholder="Enter Your Message" required></textarea>
+                <input type="submit" value="submit" class="send">
+            </form>
+        </div>
+    </section>
+
+    <div class="last-text">
+        <p>Developed with love by Dharshini Masi @ 2025</p>
+    </div>
+    <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
